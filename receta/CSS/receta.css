@@ -1,0 +1,69 @@
+/********************************************/
+/*    ESTILO HECHO POR: ALBERTO MALDONADO   */
+/*    CSS DE: RECETA.HTML                   */
+/*    FECHA:  29/10/2023                    */
+/********************************************/
+
+@font-face {
+    font-family: titulos;
+    src: url(../FONT/COMEBREAK.ttf);
+}
+
+@font-face {
+    font-family: titulos2;
+    src: url(../FONT/royal-serif.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url();
+}
+
+* {box-sizing: border-box;} 
+
+body {background-color: blueviolet;
+    background-image: url(../IMG/collection-ingredients-blackboard_23-2148678863.jpg);
+    background-size: 50%;}
+
+#wrapper {background-color: white;
+        width: 60%;                    /* width va en %  */
+        margin: auto;
+        padding: 10%;
+        border-radius: 20px;
+        background-image: url(../IMG/istockphoto-1216743286-612x612.jpg);}  
+
+h1 {border: 2px solid rgb(69, 31, 31);
+    text-align:center;
+    padding: 10px 0;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: -15px 15px 15px rgb(95, 34, 34);
+    font-family: titulos;}
+
+
+h2 {text-align: center;
+    font-family: titulos2;}
+
+blockquote {border-left: 5px solid rgb(226, 46, 43);
+            padding: 10px;
+            font-style: italic;
+            background-color: rgb(151, 146, 146);} 
+
+#foto1 {width: 40%;             /* A todo el ancho donde esta */
+        margin: auto;            /*A todo el ancho donde esta colocada en este caso del wrapper*/
+        display: block;}         /* Para que se comporte como un bloque */    
+
+dt {font-weight: bold;
+    font-size: 1em;
+    color: red;}
+
+li {margin: auto;
+    color: rgb(0, 0, 0);}
+
+/***********************************/
+/*   GESTION DE LA RESPONSIVIDAD   */
+/***********************************/
+
+@media only screen and (width<750px) {
+    #wrapper {width: 100%}
+
+}
